@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
-- Live Site URL:(https://nitheeshkumar-c.github.io/Order-summary-challenge/)
+- [Solution URL](https://your-solution-url.com)
+- [Live Site URL](https://nitheeshkumar-c.github.io/Order-summary-challenge/)
 
 ## My process
 
