@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+}
+h1{
+    text-align: center;
+    padding: 1.25rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.bg-svg{
+    width: 100%;
+}
+.container{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 25rem;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+.content{
+    background-color: white;
+    border-radius: 2rem;
+}
+.illustration-hero{
+    width: 100%;
+    border-radius: 2rem 2rem 0 0;
+}
+.description{
+    font-size: 16px;
+    padding:0 2.5rem 0 2.5rem;
+    color: hsl(224, 23%, 55%);
+    line-height: 1.5;
+}
+.fee{
+    margin:1.25rem 2.5rem 1.25rem 2.5rem;
+    padding: 1.25rem;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 1rem;
+    display: flex;
+    align-content: center;
+}
+.icon-music{
+    padding:0 1.25rem 0 0;
+}
+.amount{
+    width: 70%;
+    text-align: left;
+    font-weight: 700;
+}
+.price{
+    color: hsl(224, 23%, 55%);
+    font-weight: normal;
+}
+.change{
+    align-self: center;
+    text-align: right;
+    color: hsl(245, 75%, 52%) hsl(225, 100%, 98%);
+    font-weight: 700;
+}
+.payment{
+    display: block;
+    text-decoration: none;
+    margin:1.25rem 2.5rem 1.2rem 2.5rem;
+    padding: 0.9375rem 0 0.9375rem 0;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0 0.7rem 0.9rem hsla(245, 75%, 52%, 0.404);
+    border-radius: 0.625rem;
+    color: white;
+    font-weight: 700;
+}
+.cancelorder{
+    display: block;
+    text-decoration: none;
+    margin:1.2rem 2.5rem 1.2rem 2.5rem;
+    padding: 0.625rem 0.625rem 1.875rem 0.625rem;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+i{
+    color: hsl(225, 100%, 94%) hsl(245, 75%, 52%)  hsl(225, 100%, 98%);
+    color: hsl(224, 23%, 55%) hsl(223, 47%, 23%);
+}
+.attribution{
+    bottom: 1.875rem;
+}
+.attribution a{
+    color: rgb(25, 0, 255);
+}
+/* hover effect */
+.change:hover{
+    color:hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+.payment:hover{
+    background-color :hsla(245, 75%, 52%, 0.603);
+    box-shadow: 0 0.7rem 0.9rem hsla(245, 75%, 52%, 0.288);
+}
+.cancelorder:hover{
+    color: black;
+}

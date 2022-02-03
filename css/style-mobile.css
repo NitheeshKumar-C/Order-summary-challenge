@@ -1,0 +1,58 @@
+/* ----- media queries */
+@media (max-width:450px){
+    main{
+        text-align: center;
+        width: 100%;
+    }
+    .bg-svg{
+        padding: 0;
+        left: 0;
+        top: 0;
+        right: 0;
+        position: absolute;
+    }
+    h1{
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .description{
+        font-size: 0.7rem;
+        padding:0 2rem 0 2rem;
+    }
+    .payment,.cancelorder{
+        font-size: 0.7rem;
+        margin: 1rem 1rem 1rem 1rem;
+    }
+    .cancelorder{
+        padding: 0.625rem 0.625rem 1rem 0.625rem;
+    }
+    .container{
+        position: sticky;
+        left: 0;
+        margin: 2rem auto 0 auto;
+        width: 17rem;
+        transform: none;
+    }
+    .icon-music{
+        width: 2rem;
+        padding-right: 1rem;
+    }
+    .fee{
+        font-size: 0.7rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    .amount{
+        align-self: center;
+    }
+    .amount{
+        width: 100%;
+    }
+    .change{
+        padding-right: 0;
+    }
+    .attribution{
+        bottom: 1.875rem;
+        font-size: 0.7rem;
+    }
+}
